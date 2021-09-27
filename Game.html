@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="gamestyle.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>My School</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="maindiv">
+        <span>
+            <div class="row1">
+                <h2 id="player1_name">Player 1 :</h2>
+                <h2></h2>
+            </div>
+            <u>
+                <p id="p1">Maths</p>
+            </u>
+            <p id="p5">Quiz</p>
+        </span>
+        <div class="row1">
+            <h2 id="player2_name">Player 2 :</h2>
+            <h2></h2>
+        </div>
+        <span>
+            <div id="output"></div>
+            <div id="input">
+                <center>
+                    <h2 id="head" font-family="'Bebas Neue', cursive;">Question Form</h2>
+                    <hr>
+                    <h4 class="p4" id="question">Question turn :</h4>
+                    <div id="horizontal_line"></div>
+                    <h4 class="p4" id="answer">Answer turn :</h4>
+                    <h4 class="p6">Number 1 :<input type="number" placeholder="Type first number" id="no1"></h4>
+                    <h4 class="p6">Number 2 :<input type="number" placeholder="Type second number" id="no2"></h4>
+                    <button onclick="send()" id="send_btn">SEND</button>
+                </center>
+            </div>
+        </span>
+        <script src="game.js"></script>
+</body>
+
+</html>
